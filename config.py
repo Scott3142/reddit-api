@@ -5,5 +5,5 @@ auth = requests.auth.HTTPBasicAuth('<CLIENT_ID>', '<SECRET_TOKEN>')
 
 # here we pass our login method (password), username, and password
 data = {'grant_type': 'password',
-        'username': '<USERNAME>',
+        'username': 'digisquash',
         'password': '<PASSWORD>'}
